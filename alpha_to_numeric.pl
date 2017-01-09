@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 
 use strict;			#enforce good programming rules
-use Getopt::Std;	#module that allow for command line options
+use Getopt::Std;		#module that allow for command line options
 
 #reading options
 our ($opt_i); 		#'our' declares package variables
-getopts('i:'); 		#create and process a single-character switch where 'i' is a boolean flag. The ":" expects something to come after the flag
+getopts('i:'); 		
 if (!$opt_i) { 		
     print STDERR "\nInput file name (-i) required\n\n\n";		#states input file required if not loaded
 }
