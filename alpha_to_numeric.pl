@@ -89,4 +89,4 @@ while (<INFILE>) {
     print "\n"; #ends the line
 }
 
-close INFILE; #close i
+close INFILE; #close file
